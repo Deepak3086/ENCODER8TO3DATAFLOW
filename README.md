@@ -39,7 +39,7 @@ Logical circuit of the above expressions is given below:
 
 Figure 02  Encoder 8 * 3
 
-**Procedure**
+## PROCEDURE:
 
 1. Type the program in Quartus software.
  2. Compile and run the program.
@@ -47,7 +47,9 @@ Figure 02  Encoder 8 * 3
  4. Create nodes for inputs and outputs to generate the timing diagram.
  5. For different input combinations generate the timing diagram
 
-**PROGRAM**
+## PROGRAM:
+
+
 ~~~
 module Encoder(A2,A1,A0,y0,y1,y2,y3,y4,y5,y6,y7);
 input y0,y1,y2,y3,y4,y5,y6,y7;
